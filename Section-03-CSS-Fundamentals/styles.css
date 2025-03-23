@@ -158,3 +158,13 @@ a:active {
 .post-header {
   margin-bottom: 40px;
 }
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
