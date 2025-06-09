@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <title>The Basic Language of the Web: HTML</title>
   </head>
@@ -17,6 +18,7 @@
 
     <header>
       <h1>📘 The Code Magazine</h1>
+      <p>Test paragraph</p>
 
       <nav>
         <a href="blog.html">Blog</a>
@@ -37,7 +39,9 @@
           width="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -99,7 +103,7 @@
         <li>To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
-          Worpress or Wix
+          Wordpress or Wix
         </li>
         <li>To build web applications</li>
         <li>To impress friends</li>
@@ -141,6 +145,8 @@
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
   </body>
 </html>
