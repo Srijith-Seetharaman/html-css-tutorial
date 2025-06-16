@@ -352,3 +352,8 @@ footer {
   background-color: orangered;
   grid-column: 1 / -1;
 }
+
+aside ul {
+  margin-left: 0;
+  padding: 10px 50px;
+}
