@@ -16,7 +16,7 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -55,7 +55,10 @@ header {
   align-self: center;
 }
 
+/* 44 / 52 / 62 */
 h1 {
+  font-size: 44px;
+  line-height: 1.1;
   margin-bottom: 24px;
 }
 
